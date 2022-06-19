@@ -27,6 +27,10 @@ public class Interface1 extends JPanel {
         g.setColor(Color.ORANGE);
         g.fillRect(300, 400, 100, 100);
         g.fillOval(500, 400, 100, 100);
+        g.setColor(Color.CYAN);
+        int [] puntosX = { 200, 100, 300, 400 };
+        int [] puntosY = { 200, 600, 600, 500 };
+        g.fillPolygon(puntosX, puntosY, 4);
     }
 
     public static void main(String[] args) {
