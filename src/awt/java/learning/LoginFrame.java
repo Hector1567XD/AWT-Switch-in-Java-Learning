@@ -54,7 +54,7 @@ public class LoginFrame extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Roboto Light", 0, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Among Us");
-        bgPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 210, -1, -1));
+        bgPanel.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 210, -1, -1));
 
         imgLogo.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         imgLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/awt/java/images/logo.png"))); // NOI18N

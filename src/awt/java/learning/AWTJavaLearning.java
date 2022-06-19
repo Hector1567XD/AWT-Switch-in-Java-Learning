@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
 package awt.java.learning;
-
+import graficos2d.*;
 /**
  *
  * @author hecto
@@ -15,8 +15,11 @@ public class AWTJavaLearning {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        /*
         LoginFrame loginFrame = new LoginFrame();
         loginFrame.show();
+        */
+        Interface1.main(args);
     }
     
 }
