@@ -6,8 +6,12 @@ package graficos2d;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+import javax.swing.ImageIcon;
+import java.awt.image.BufferedImage;
 import java.awt.Graphics;
 import java.awt.Color;
+import javax.imageio.*;
+
 /**
  *
  * @author hecto
@@ -31,6 +35,19 @@ public class Interface1 extends JPanel {
         int [] puntosX = { 200, 100, 300, 400 };
         int [] puntosY = { 200, 600, 600, 500 };
         g.fillPolygon(puntosX, puntosY, 4);
+        
+        ImageIcon imagen = new ImageIcon(getClass().getResource("/imagenes/rockman.png"));
+        g.drawImage(imagen.getImage(), 348, 348, 32, 32, this);
+        
+        /*BufferedImage img = ImageIO.read("/imagenes/rockman.png");
+        
+        int w = img.getWidth(null);
+        int h = img.getHeight(null);
+        BufferedImage bi = new
+            BufferedImage(w, h, BufferedImage.TYPE_INT_ARGB);
+        Graphics g2 = bi.getGraphics();
+        g2.drawImage(img, 0, 0, null);*/
+        
     }
 
     public static void main(String[] args) {
