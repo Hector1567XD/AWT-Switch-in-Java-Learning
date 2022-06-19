@@ -20,8 +20,13 @@ public class Interface1 extends JPanel {
 
         g.setColor(Color.RED);
         g.drawLine(100, 100, 500, 500);
+        g.drawRect(300, 100, 100, 100);
+        g.drawOval(500, 100, 100, 100);
         g.setColor(Color.BLUE);
         g.drawLine(-100, 150, 300, 400);
+        g.setColor(Color.ORANGE);
+        g.fillRect(300, 400, 100, 100);
+        g.fillOval(500, 400, 100, 100);
     }
 
     public static void main(String[] args) {
