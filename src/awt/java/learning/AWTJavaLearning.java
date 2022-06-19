@@ -19,9 +19,10 @@ public class AWTJavaLearning {
         LoginFrame loginFrame = new LoginFrame();
         loginFrame.show();
         */
-        //Interface1.main(args);
-        Traslacion traslacion = new Traslacion();
-        traslacion.show();
+        InterfaceGamePrototype ip = new InterfaceGamePrototype();
+        ip.main(args);
+        /*Traslacion traslacion = new Traslacion();
+        traslacion.show();*/
     }
     
 }
